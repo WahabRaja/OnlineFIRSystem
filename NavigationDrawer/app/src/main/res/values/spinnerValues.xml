@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Planet">
+        <item></item>
+        <item>I-10</item>
+        <item>I-9</item>
+        <item>I-8</item>
+        <item>I-7</item>
+        <item>F-6</item>
+        <item>F-7</item>
+        <item>F-8</item>
+        <item>F-9</item>
+        <item>F-10</item>
+    </string-array>
+</resources>

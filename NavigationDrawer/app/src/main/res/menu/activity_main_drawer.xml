@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_RegisterFIR"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Register FIR" />
+        <item
+            android:id="@+id/nav_EditInfo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Edit Info" />
+        <item
+            android:id="@+id/nav_ViewPost"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Post" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

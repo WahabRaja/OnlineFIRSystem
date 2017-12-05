@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="34dp"
+        android:gravity="center"
+        android:id="@+id/Title"
+        android:paddingBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:inputType="text"
+        android:layout_below="@+id/Title"
+        android:textSize="20dp"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CNIC No:"
+        android:inputType="number"
+        android:layout_below="@+id/name"
+        android:textSize="20dp"
+        android:id="@+id/cnic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email:"
+        android:layout_below="@+id/cnic"
+        android:textSize="20dp"
+        android:id="@+id/email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:layout_below="@+id/email"
+        android:textSize="20dp"
+        android:id="@+id/password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mother Name:"
+        android:layout_below="@+id/password"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:id="@+id/motherName"/>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Mobile No:"
+    android:layout_below="@+id/motherName"
+    android:textSize="20dp"
+        android:inputType="number"
+    android:id="@+id/mobileNo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobileNo"
+        android:id="@+id/linear">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Select Police Station"
+        android:layout_below="@+id/mobileNo"
+        android:textSize="20dp"
+        android:id="@+id/policeStation"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_view"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+        </Spinner>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:id="@+id/signUpBtn"
+        android:text="sign Up"/>
+
+   </RelativeLayout>
+
+</ScrollView>
